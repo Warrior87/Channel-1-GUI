@@ -13,6 +13,7 @@ Public Class Form1
     'Dim stringArray(2) As String
 
     'when the program loads, find available serial ports and add them to the combobox
+    'this is to test the git functionality
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         For Each AvailableSerialPorts As String In SerialPort1.GetPortNames()
